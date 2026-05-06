@@ -3,7 +3,7 @@ import pandas as pd
 import yfinance as yf
 
 st.set_page_config(layout="wide")
-st.title("📊 Cap sir策略看板（即時版）")
+st.title("📊 LOVE Cap sir策略看板（即時版）")
 
 # ===== 使用者輸入 =====
 stocks = [
