@@ -6,7 +6,7 @@ import time
 from datetime import datetime, timedelta
 
 st.set_page_config(layout="wide")
-st.title("📊 股票策略看板（專業穩定版）")
+st.title("Cap sir +350W Capacity")
 
 # ===== 使用者設定 =====
 stocks = [
@@ -14,6 +14,7 @@ stocks = [
     {"股票代碼": "0052", "入手價格": 40.67},
     {"股票代碼": "006208", "入手價格": 109.08},
     {"股票代碼": "00888", "入手價格": 68.7},
+    {"股票代碼": "1717", "入手價格": 45},
 ]
 
 df = pd.DataFrame(stocks)
